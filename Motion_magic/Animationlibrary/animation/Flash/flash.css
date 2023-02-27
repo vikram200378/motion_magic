@@ -1,0 +1,20 @@
+/*******************flash animation**********
+***********************************************/
+@keyframes flash {
+    0% {
+        color: #7e2ea0;
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    100% {
+        color: #7e2ea0;
+    }
+}
+
+.flash {
+    animation: flash 1s ease infinite;
+
+}

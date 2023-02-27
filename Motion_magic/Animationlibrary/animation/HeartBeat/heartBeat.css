@@ -1,0 +1,20 @@
+/*******************heartbeat and Y animation**********
+***********************************************/
+.heartBeat {
+
+    animation: heartBeat 2s ease infinite;
+
+}
+
+@keyframes heartBeat {
+
+    /*   25% { transform: scale(1.4,1.4) } */
+    50% {
+        transform: scale(1.6, 1.6)
+    }
+
+    /*   75% { transform: scale(2,2) } */
+    100% {
+        transform: scale(1, 1)
+    }
+}

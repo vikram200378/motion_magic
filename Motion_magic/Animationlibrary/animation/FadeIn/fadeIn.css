@@ -1,0 +1,16 @@
+
+/*******************fadeIn animation**********
+***********************************************/
+.fadeIn {
+    animation: fadeIn 2s ease infinite;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }

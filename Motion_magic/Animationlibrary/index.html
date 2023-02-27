@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang=en>
+   <head>
+      <title>Volumetree animation css library lll</title>
+      <link rel=stylesheet href="./css/SUNDER/Sunder.css"/>
+      <link rel="stylesheet" href="./css/SUNDER/custom.css"/>
+      <link rel=stylesheet href="./css/Animation/animation.css"/>
+      <link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+   </head>
+   <body>
+      <section style="background-color: rgb(15 23 42);">
+         <div class="flex justify-between ">
+            <div class="Usage_content">
+               <header>
+                  <a href=https://github.com/vikram200378/animationLibrary target=_blank><img class=github-ribbon
+                     src=./images/github.png alt=Fork me on GitHub /></a>
+               </header>
+            </div>
+            <div class="container mt-4 pr-6">
+               <div class="px-16 pt-10 _scrollBar __overflow-y">
+                  <!-- indroduction Animation-->
+                  <div class="Content_animation pt-5">
+                     <h2 class="pt-1 pb-2 __font-weight-bold __text-White text-4xl strong-custom " >Introduction</h2>
+                     <h2 class="text-2xl text_color_3"> Get started with Animation.css and learn by exploring interactive examples. <br/>Animations can greatly improve an interface's UX, but it's important to follow some guidelines to not overdo it and deteriorate the user experience on your web-things. Following the following rules should provide a good start.</h2>
+                     <h2 class="pt-1 pb-2 __font-weight-bold __text-White text-4xl strong-custom " >Installation and Usage</h2>
+                     <h2 class="pt-1 pb-2 __font-weight-bold __text-White text-xl text_color_3" >Install with npm:</h2>
+                     <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4">
+                        <h2 class="__text-White  px-16 pt-10 pb-10 _lineHeight_3">
+                           $ npm install VTanimate.css --save
+                        </h2>
+                     </div>
+                     <h2 class="pt-1 pb-2 __font-weight-bold __text-White text-xl text_color_3 mt-5" >Import it into your file:
+                     </h2>
+                     <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4">
+                        <h2 class="__text-White  px-16 pt-10 pb-10 _lineHeight_3">
+                           import 'VTanimate.css';
+                        </h2>
+                     </div>
+                     <h2 class="text-2xl text_color_3" >  You can added it directly to your webpage using a CDN:</h2>
+                     <div>
+                        <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4">
+                           <h2 class="__text-White  px-16 pt-10 pb-10 _lineHeight_3">
+                              < head > 
+                              <br/>
+                              < link
+                              rel="stylesheet"
+                              Link"
+                              />
+                              <br/>
+                              < / head>
+                           </h2>
+                        </div>
+                        <div class="Usage-content pt-4">
+                           <h2 class="text-2xl text_color_3">After installing Animate.css, add the any class of the animation names.</h2>
+                           <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4">
+                              <div  class="__text-White  px-16 pt-10 pb-10 _lineHeight_3">
+                                 < h1 class="bounce">An animated element< / h1>
+                              </div >
+                           </div>
+                           <h2 class="pt-1 pb-2 __font-weight-bold __text-White text-4xl strong-custom  mt-4"  >Animation</h2>
+                           <h2 class="text-2xl text_color_3">Utilities for animating elements with CSS animations.</h2>
+                           <div class="inline-flex __font-weight-bold max-w-full pt-2">
+                              <div class="__text-White flex-width">
+                                 <p>Class</p>
+                              </div>
+                              <div class="__text-White ">
+                                 <p>Properties</p>
+                              </div>
+                           </div>
+                           <div class="max-w-full  __overflow-y __vertical_height mt-3 _scrollBar __Shadow-inset __border-radius-10 pl-4 pr-4">
+                              <div class="flex max-w-full text-color-2 ">
+                                 <div class="flex-width pt-5 __font-weight-bold">
+                                    flash
+                                 </div>
+                                 <div class="whitespace-pre ">
+                                    @keyframes flash {
+                                        0% {
+                                            color: #7e2ea0;
+                                        }
+                                    
+                                        50% {
+                                            color: transparent;
+                                        }
+                                    
+                                        100% {
+                                            color: #7e2ea0;
+                                        }
+                                    }
+                                 </div>
+                              </div>
+                              <div class="_hr"></div>
+                              <div class="flex max-w-full text-color-2 ">
+                                 <div class="flex-width pt-5 __font-weight-bold">
+                                    bounceIn
+                                 </div>
+                                 <div class="whitespace-pre ">
+                                    @keyframes bounceIn {
+                                        0% {
+                                            opacity: 0;
+                                            transform: scale3d(0.3, 0.3, 0.3);
+                                        }
+                                    
+                                        20% {
+                                            transform: scale3d(1.1, 1.1, 1.1);
+                                        }
+                                    
+                                        40% {
+                                            transform: scale3d(0.9, 0.9, 0.9);
+                                        }
+                                    
+                                        60% {
+                                            opacity: 1;
+                                            transform: scale3d(1.03, 1.03, 1.03);
+                                        }
+                                    
+                                        80% {
+                                            transform: scale3d(0.97, 0.97, 0.97);
+                                        }
+                                    
+                                        to {
+                                            opacity: 1;
+                                            transform: scale3d(1, 1, 1);
+                                        }
+                                    }
+                                 </div>
+                              </div>
+                           </div>
+                           <!--bounce content bounce-->
+                           <section id="bounce">
+                              <h2 class="pt-10 text-2xl text_color_3 ">bounce</h2>
+                              <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
+                                 gap: 10px;
+                                 display: grid;">
+                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"  id="parent">
+                                       <h4 class=" text-x " id="hover-me">bounce</h4>
+                                       <h4 class=" text-x bounce" id="hover-content" >bounce</h4>
+                                    </div >
+                                 </div>
+                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
+                                       <h4 class=" text-x " id="hover-me">bounceInUp</h4>
+                                       <h4 class=" text-x bounceInUp" id="hover-content" >bounceInUp</h4>
+                                    </div >
+                                 </div>
+                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                       <h4 class=" text-x " id="hover-me">bounceOut</h4>
+                                       <h4 class=" text-x bounceOut" id="hover-content" >bounceOut</h4>
+                                    </div >
+                                 </div>
+                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                       <h4 class=" text-x " id="hover-me">bounceIn</h4>
+                                       <h4 class=" text-x bounceIn" id="hover-content"  >bounceIn</h4>
+                                    </div >
+                                 </div>
+                              </div>
+                              <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
+                                 gap: 10px;
+                                 display: grid;">
+                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                       <h4 class=" text-x " id="hover-me">bounceInRight</h4>
+                                       <h4 class=" text-x bounceInRight" id="hover-content" >bounceInRight</h4>
+                                    </div >
+                                 </div>
+                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                       <h4 class=" text-x " id="hover-me">bounceInDown</h4>
+                                       <h4 class=" text-x bounceInDown"  id="hover-content">bounceInDown</h4>
+                                    </div >
+                                 </div>
+                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                       <h4 class=" text-x " id="hover-me">bounceInLeft</h4>
+                                       <h4 class=" text-x bounceInLeft" id="hover-content" >bounceInLeft</h4>
+                                    </div >
+                                 </div>
+                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                       <h4 class=" text-x " id="hover-me">bounceOutDown</h4>
+                                       <h4 class=" text-x bounceOutDown" id="hover-content" >bounceOutDown</h4>
+                                    </div >
+                                 </div>
+                              </div>
+                           </section>
+                           <!--Close-->
+                           <!--BackInDown content backInDown-->
+                           <section id="backInDown">
+                              <h2 class="pt-10 text-2xl text_color_3 ">BackInDown</h2>
+                              <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
+                                 gap: 10px;
+                                 display: grid;">
+                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"  id="parent">
+                                       <h4 class=" text-x " id="hover-me">backInDown</h4>
+                                       <h4 class=" text-x backInDown" id="hover-content" >backInDown</h4>
+                                    </div >
+                                 </div>
+                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                       <h4 class=" text-x " id="hover-me">backInLeft</h4>
+                                       <h4 class=" text-x backInLeft" id="hover-content"  >backInLeft</h4>
+                                    </div >
+                                 </div>
+                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                       <h4 class=" text-x " id="hover-me">backInRight</h4>
+                                       <h4 class=" text-x backInRight"  id="hover-content">backInRight</h4>
+                                    </div >
+                                 </div>
+                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                       <h4 class=" text-x " id="hover-me">backInUp</h4>
+                                       <h4 class=" text-x backInUp" id="hover-content" >backInUp</h4>
+                                    </div >
+                                 </div>
+                              </div>
+                              <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
+                                 gap: 10px;
+                                 display: grid;">
+                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                       <h4 class=" text-x " id="hover-me">backOutDown</h4>
+                                       <h4 class=" text-x backOutDown" id="hover-content" >backOutDown</h4>
+                                    </div >
+                                 </div>
+                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
+                                       <h4 class=" text-x " id="hover-me">backOutLeft</h4>
+                                       <h4 class=" text-x backOutLeft" id="hover-content" >backOutLeft</h4>
+                                    </div >
+                                 </div>
+                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                       <h4 class=" text-x " id="hover-me">backOutRight</h4>
+                                       <h4 class=" text-x backOutRight" id="hover-content" >backOutRight</h4>
+                                    </div >
+                                 </div>
+                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                       <h4 class=" text-x " id="hover-me">backOutUp</h4>
+                                       <h4 class=" text-x backOutUp" id="hover-content">backOutUp</h4>
+                                    </div >
+                                 </div>
+                              </div>
+                              <!--Close-->
+                           </section>
+
+                           <section id="flash">
+                            <h2 class="pt-10 text-2xl text_color_3 ">Flash</h2>
+                            <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
+                               gap: 10px;
+                               display: grid;">
+                               <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                  <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"  id="parent">
+                                     <h4 class=" text-x " id="hover-me">flash</h4>
+                                     <h4 class=" text-x flash" id="hover-content" >flash</h4>
+                                  </div >
+                               </div>
+                               <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                  <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                     <h4 class=" text-x " id="hover-me">fadeIn</h4>
+                                     <h4 class=" text-x fadeIn" id="hover-content"  >fadeIn</h4>
+                                  </div >
+                               </div>
+                               <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                  <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                     <h4 class=" text-x " id="hover-me">fadeInDown</h4>
+                                     <h4 class=" text-x fadeInDown"  id="hover-content">fadeInDown</h4>
+                                  </div >
+                               </div>
+                               <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                  <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                     <h4 class=" text-x " id="hover-me">fadeInDownBig</h4>
+                                     <h4 class=" text-x fadeInDownBig" id="hover-content" >fadeInDownBig</h4>
+                                  </div >
+                               </div>
+                            </div>
+                            <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
+                               gap: 10px;
+                               display: grid;">
+                               <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                  <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                     <h4 class=" text-x " id="hover-me">fadeInLeft</h4>
+                                     <h4 class=" text-x fadeInLeft" id="hover-content" >fadeInLeft</h4>
+                                  </div >
+                               </div>
+                               <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                  <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
+                                     <h4 class=" text-x " id="hover-me">fadeInLeftBig</h4>
+                                     <h4 class=" text-x fadeInLeftBig" id="hover-content" >fadeInLeftBig</h4>
+                                  </div >
+                               </div>
+                               <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                  <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                     <h4 class=" text-x " id="hover-me">fadeInRight</h4>
+                                     <h4 class=" text-x fadeInRight" id="hover-content" >fadeInRight</h4>
+                                  </div >
+                               </div>
+                               <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                  <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                     <h4 class=" text-x " id="hover-me">fadeInRightBig</h4>
+                                     <h4 class=" text-x fadeInRightBig" id="hover-content">fadeInRightBig</h4>
+                                  </div >
+                               </div>
+                            </div>
+
+
+                            <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
+                            gap: 10px;
+                            display: grid;">
+                            <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                               <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                  <h4 class=" text-x " id="hover-me">fadeInUp</h4>
+                                  <h4 class=" text-x fadeInUp" id="hover-content" >fadeInUp</h4>
+                               </div >
+                            </div>
+                            <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                               <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
+                                  <h4 class=" text-x " id="hover-me">fadeInUpBig</h4>
+                                  <h4 class=" text-x fadeInUpBig" id="hover-content" >fadeInUpBig</h4>
+                               </div >
+                            </div>
+                            <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                               <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                  <h4 class=" text-x " id="hover-me">fadeInTopLeft</h4>
+                                  <h4 class=" text-x fadeInTopLeft" id="hover-content" >fadeInTopLeft</h4>
+                               </div >
+                            </div>
+                            <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                               <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                                  <h4 class=" text-x " id="hover-me">fadeInTopRight</h4>
+                                  <h4 class=" text-x fadeInTopRight" id="hover-content">fadeInTopRight</h4>
+                               </div >
+                            </div>
+                         </div>
+
+
+                         <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
+                         gap: 10px;
+                         display: grid;">
+                         <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                            <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                               <h4 class=" text-x " id="hover-me">fadeInBottomLeft</h4>
+                               <h4 class=" text-x fadeInBottomLeft" id="hover-content" >fadeInBottomLeft</h4>
+                            </div >
+                         </div>
+                         <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                            <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
+                               <h4 class=" text-x " id="hover-me">fadeInBottomRight</h4>
+                               <h4 class=" text-x fadeInBottomRight" id="hover-content" >fadeInBottomRight</h4>
+                            </div >
+                         </div>
+                         <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                            <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                               <h4 class=" text-x " id="hover-me">fadeOut</h4>
+                               <h4 class=" text-x fadeOut" id="hover-content" >fadeOut</h4>
+                            </div >
+                         </div>
+                         <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                            <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                               <h4 class=" text-x " id="hover-me">fadeOutDown</h4>
+                               <h4 class=" text-x fadeOutDown" id="hover-content">fadeOutDown</h4>
+                            </div >
+                         </div>
+                      </div>
+
+
+                      <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
+                      gap: 10px;
+                      display: grid;">
+                      <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                         <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                            <h4 class=" text-x " id="hover-me">fadeOutDownBig</h4>
+                            <h4 class=" text-x fadeOutDownBig" id="hover-content" >fadeOutDownBig</h4>
+                         </div >
+                      </div>
+                      <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                         <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
+                            <h4 class=" text-x " id="hover-me">fadeOutLeft</h4>
+                            <h4 class=" text-x fadeOutLeft" id="hover-content" >fadeOutLeft</h4>
+                         </div >
+                      </div>
+                      <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                         <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                            <h4 class=" text-x " id="hover-me">fadeOutLeftBig</h4>
+                            <h4 class=" text-x fadeOutLeftBig" id="hover-content" >fadeOutLeftBig</h4>
+                         </div >
+                      </div>
+                      <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                         <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                            <h4 class=" text-x " id="hover-me">fadeOutRight</h4>
+                            <h4 class=" text-x fadeOutRight" id="hover-content">fadeOutRight</h4>
+                         </div >
+                      </div>
+                   </div>
+
+                   <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
+                   gap: 10px;
+                   display: grid;">
+                   <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                      <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                         <h4 class=" text-x " id="hover-me">fadeOutRightBig</h4>
+                         <h4 class=" text-x fadeOutRightBig" id="hover-content" >fadeOutRightBig</h4>
+                      </div >
+                   </div>
+                   <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                      <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
+                         <h4 class=" text-x " id="hover-me">fadeOutUp</h4>
+                         <h4 class=" text-x fadeOutUp" id="hover-content" >fadeOutUp</h4>
+                      </div >
+                   </div>
+                   <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                      <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                         <h4 class=" text-x " id="hover-me">fadeOutUpBig</h4>
+                         <h4 class=" text-x fadeOutUpBig" id="hover-content" >fadeOutUpBig</h4>
+                      </div >
+                   </div>
+                   <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                      <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                         <h4 class=" text-x " id="hover-me">fadeOutTopLeft</h4>
+                         <h4 class=" text-x fadeOutTopLeft" id="hover-content">fadeOutTopLeft</h4>
+                      </div >
+                   </div>
+                </div>
+
+                <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
+                gap: 10px;
+                display: grid;">
+                <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                   <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                      <h4 class=" text-x " id="hover-me">fadeOutTopRight</h4>
+                      <h4 class=" text-x fadeOutTopRight" id="hover-content" >fadeOutTopRight</h4>
+                   </div >
+                </div>
+                <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                   <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
+                      <h4 class=" text-x " id="hover-me">fadeOutUp</h4>
+                      <h4 class=" text-x fadeOutUp" id="hover-content" >fadeOutUp</h4>
+                   </div >
+                </div>
+                <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                   <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                      <h4 class=" text-x " id="hover-me">fadeOutUpBig</h4>
+                      <h4 class=" text-x fadeOutUpBig" id="hover-content" >fadeOutUpBig</h4>
+                   </div >
+                </div>
+                <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                   <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                      <h4 class=" text-x " id="hover-me">fadeOutTopLeft</h4>
+                      <h4 class=" text-x fadeOutTopLeft" id="hover-content">fadeOutTopLeft</h4>
+                   </div >
+                </div>
+             </div>
+
+             
+             <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
+             gap: 10px;
+             display: grid;">
+             <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                   <h4 class=" text-x " id="hover-me">fadeOutBottomRight</h4>
+                   <h4 class=" text-x fadeOutBottomRight" id="hover-content" >fadeOutBottomRight</h4>
+                </div >
+             </div>
+             <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
+                   <h4 class=" text-x " id="hover-me">fadeOutBottomLeft</h4>
+                   <h4 class=" text-x fadeOutBottomLeft" id="hover-content" >fadeOutBottomLeft</h4>
+                </div >
+             </div>
+            
+          </div>
+          <h2 class="pt-10 text-2xl text_color_3 ">Flip</h2>
+
+          <div class="animation_content pt-10 " style="grid-template-columns: auto auto   ;
+          gap: 10px;
+          display: grid;">
+          <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+            <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+               <h4 class=" text-x " id="hover-me">flip</h4>
+               <h4 class=" text-x flip" id="hover-content" >flip</h4>
+            </div >
+         </div>
+         <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+            <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+               <h4 class=" text-x " id="hover-me">flipInX</h4>
+               <h4 class=" text-x flipInX" id="hover-content">flipInX</h4>
+            </div >
+         </div>
+         </div>
+
+          <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto  ;
+          gap: 10px;
+          display: grid;">
+          <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+             <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                <h4 class=" text-x " id="hover-me">flipInY</h4>
+                <h4 class=" text-x flipInY" id="hover-content" >flipInY</h4>
+             </div >
+          </div>
+          <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+             <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
+                <h4 class=" text-x " id="hover-me">flipOutX</h4>
+                <h4 class=" text-x flipOutX" id="hover-content" >flipOutX</h4>
+             </div >
+          </div>
+          <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+             <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+                <h4 class=" text-x " id="hover-me">flipOutY</h4>
+                <h4 class=" text-x flipOutY" id="hover-content" >flipOutY</h4>
+             </div >
+          </div>
+       </div>
+                            <!--Close-->
+                         </section>
+
+
+
+
+                        </div>
+                     </div>
+                  </div>
+                  <!--Close-->              
+               </div>
+            </div>
+            <!--Side bar -->
+            <div class="__text-White"  >
+               <div class="pt-8 pb-8 pr-8  __overflow-y  max-h-screen">
+                  <ul>
+                     <li> <a href="#bounce" title="Copy class name ">bounce </a></li>
+                     <li><a href="#bounce" title="Copy class name ">
+                        bounceIn
+                        </a>
+                     </li>
+                     <li ><a href="#bounce" title="Copy class name ">
+                        bounceInDown
+                        </a>
+                     </li>
+                     <li><a href="#bounce" title="Copy class name ">
+                        bounceInLeft
+                        </a>
+                     </li>
+                     <li ><a href="#bounce" title="Copy class name ">
+                        bounceInRight
+                        </a>
+                     </li>
+                     <a href="#bounce" title="Copy class name ">
+                     bounceInUp
+                     </a></li>
+                     <li
+                        > <a href="#bounce" title="Copy class name ">
+                        bounceOut
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#bounce" title="Copy class name ">
+                        bounceOutDown
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#bounce" title="Copy class name ">
+                        bounceOutLeft
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#bounce" title="Copy class name ">
+                        bounceOutRight
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#bounce" title="Copy class name ">
+                        bounceOutUp
+                        </a>
+                     </li>
+                     <li ><a href="#backInDown" title="Copy class name ">
+                        backInDown
+                        </a>
+                     </li>
+                     <li ><a href="#backInDown" title="Copy class name ">
+                        backInLeft
+                        </a>
+                     </li>
+                     <li ><a href="#backInDown" title="Copy class name ">
+                        backInRight
+                        </a>
+                     </li>
+                     <li ><a href="#backInDown" title="Copy class name ">
+                        backInUp
+                        </a>
+                     </li>
+                     <li ><a href="#backInDown" title="Copy class name ">
+                        backOutDown
+                        </a>
+                     </li>
+                     <li ><a href="#backInDown" title="Copy class name ">
+                        backOutLeft
+                        </a>
+                     </li>
+                     <li><a href="#backInDown" title="Copy class name ">
+                        backOutRight
+                        </a>
+                     </li>
+                     <li ><a href="#backInDown" title="Copy class name ">
+                        backOutUp
+                        </a>
+                     </li>
+                     <li><a href="#" title="Copy class name ">flash</a></li>
+                     <li> <a href="#" title="Copy class name "> pulse</a></li>
+                     <li><a href="#" title="Copy class name ">
+                        rubberBand
+                        </a>
+                     </li>
+                     <li ><a href="#" title="Copy class name ">
+                        shakeX
+                        </a>
+                     </li>
+                     <li ><a href="#" title="Copy class name ">
+                        shakeY
+                        </a>
+                     </li>
+                     <li ><a href="#" title="Copy class name ">
+                        headShake
+                        </a>
+                     </li>
+                     <li ><a href="#" title="Copy class name ">
+                        swing
+                        </a>
+                     </li>
+                     <li ><a href="#" title="Copy class name ">
+                        tada
+                        </a>
+                     </li>
+                     <li ><a href="#" title="Copy class name ">
+                        wobble
+                        </a>
+                     </li>
+                     <li ><a href="#" title="Copy class name ">
+                        jello
+                        </a>
+                     </li>
+                     <li ><a href="#" title="Copy class name ">
+                        heartBeat
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeIn
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeInDown
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeInDownBig
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeInLeft
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeInLeftBig
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeInRight
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeInRightBig
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeInUp
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeInUpBig
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeInTopLeft
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeInTopRight
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeInBottomLeft
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeInBottomRight
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeOut
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeOutDown
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeOutDownBig
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeOutLeft
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeOutLeftBig
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeOutRight
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeOutRightBig
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeOutUp
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeOutUpBig
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeOutTopLeft
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeOutTopRight
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeOutBottomRight
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        fadeOutBottomLeft
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        flip
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        flipInX
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        flipInY
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        flipOutX
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        flipOutY
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        lightSpeedInRight
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        lightSpeedInLeft
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        lightSpeedOutRight
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        lightSpeedOutLeft
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        rotateIn
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        rotateInDownLeft
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        rotateInDownRight
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        rotateInUpLeft
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        rotateInUpRight
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        rotateOut
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        rotateOutDownLeft
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        rotateOutDownRight
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        rotateOutUpLeft
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        rotateOutUpRight
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        hinge
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        jackInTheBox
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        rollIn
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        rollOut
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        zoomIn
+                        </a>
+                     </li>
+                     <li 
+                        > <a href="#" title="Copy class name ">
+                        zoomInDown
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        zoomInLeft
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        zoomInRight
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        zoomInUp
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        zoomOut
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        zoomOutDown
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        zoomOutLeft
+                        </a>
+                     </li>
+                     <li 
+                        >  
+                        <a href="#" title="Copy class name ">
+                        zoomOutRight
+                        </a>
+                     </li>
+                     <li
+                        >
+                        <a href="#" title="Copy class name "> zoomOutUp
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        slideInDown
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        slideInLeft
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        slideInRight
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        slideInUp
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        slideOutDown
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        slideOutLeft
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        slideOutRight
+                        </a>
+                     </li>
+                     <li 
+                        >  <a href="#" title="Copy class name ">
+                        slideOutUp
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!--close-->
+         </div>
+      </section>
+   </body>
+</html>

@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+._lineHeight_3{
+    line-height: 3;
+}
+.strong-custom{
+    color:rgb(56 189 248);
+    
+
+}
+._OverFlow_hidden{
+    overflow: hidden;
+}
+a:hover{
+    color:rgb(56 189 248);
+}
+.text-color-2{
+    color: rgb(165 180 252);
+}
+.__font-weight-bold{
+    font-weight: bold;
+
+}
+.flex-width{
+    width: 100px
+}
+.whitespace-pre {
+    white-space: pre;
+}
+.__vertical_height{
+    height: 20rem;
+}
+/* scroll bar css*/
+/* width */
+._scrollBar::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 20px;
+  }
+  
+  /* Track */
+  ._scrollBar::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ._scrollBar::-webkit-scrollbar-thumb {
+    background: rgb(165 180 252);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ._scrollBar::-webkit-scrollbar-thumb:hover {
+    background: rgb(165 180 252);; 
+  }
+
+/* Shadow*/
+.__Shadow-inset{
+    box-shadow: inset 0 0 0 1px hsl(0deg 0% 100% / 10%);
+}
+.__border-radius-10{
+    border-radius: 10px;
+}
+._hr {
+    border-color: rgba(148,163,184,.1);
+    width: 100%;
+    height: 1px;
+    background: rgba(148,163,184,.1);
+}
+.text_color_3{
+    color: rgb(148 163 184)
+}
