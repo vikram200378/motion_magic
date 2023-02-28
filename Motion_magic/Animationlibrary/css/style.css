@@ -3,8 +3,12 @@ body {
     /* font-family: 'Work Sans', sans-serif; */
     font-family: 'Cabin', sans-serif;
     color: #ffff;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
+.animation_show{
+    display: none;
+}
+
 
 /* .background-animation {
     /* background: linear-gradient(to right, #b91d73, #f953c6); */

@@ -23,21 +23,21 @@ $(selector).on("click", function () {
 /*********************************************************************
  ********************************slider js **************************
  **** ****************************************************************/
-$(".slider").slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  swipe: false,
-});
+// $(".slider").slick({
+//   infinite: true,
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+//   swipe: false,
+// });
 
-var swiper = new Swiper(".swiper-container", {
-  pagination: ".swiper-pagination",
-  slidesPerView: "auto",
-  paginationClickable: true,
-  spaceBetween: 0,
-  nextButton: ".swiper-button-next",
-  prevButton: ".swiper-button-prev",
-});
+// var swiper = new Swiper(".swiper-container", {
+//   pagination: ".swiper-pagination",
+//   slidesPerView: "auto",
+//   paginationClickable: true,
+//   spaceBetween: 0,
+//   nextButton: ".swiper-button-next",
+//   prevButton: ".swiper-button-prev",
+// });
 
 /*********************************************************************
  ********************************Clipboard js **************************
@@ -70,3 +70,22 @@ function showAlert(value) {
 function hideAlert() {
   myAlert.className = myAlert.className.replace("show", "");
 }
+
+
+
+// $(document).ready(function(){
+//   $('ul li a').click(function(){
+//     $('section .animation').removeClass("animation_show");
+//     $('section .animation').addClass("animation_show");
+// });
+// });
+
+jQuery(function(){
+  jQuery('#showall').click(function(){
+        jQuery('.targetDiv').show();
+ });
+ jQuery('.showSingle').click(function(){
+       jQuery('.targetDiv').hide();
+       jQuery('#div'+$(this).attr('target')).show();
+ });
+});

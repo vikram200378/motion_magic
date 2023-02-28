@@ -5,39 +5,47 @@
       <link rel=stylesheet href="./css/SUNDER/Sunder.css"/>
       <link rel="stylesheet" href="./css/SUNDER/custom.css"/>
       <link rel=stylesheet href="./css/Animation/animation.css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
    </head>
    <body>
-      <section style="background-color: rgb(15 23 42);">
+      <section class="bg-image">
          <div class="flex justify-between ">
             <div class="Usage_content">
                <header>
                   <a href=https://github.com/vikram200378/animationLibrary target=_blank><img class=github-ribbon
                      src=./images/github.png alt=Fork me on GitHub /></a>
                </header>
+             
             </div>
             <div class="container mt-4 pr-6">
                <div class="px-16 pt-10 _scrollBar __overflow-y">
                   <!-- indroduction Animation-->
                   <div class="Content_animation pt-5">
+                     <div id="div0" class="targetDiv pb-10 fadeInPage" >
                      <h2 class="pt-1 pb-2 __font-weight-bold __text-White text-4xl strong-custom " >Introduction</h2>
-                     <h2 class="text-2xl text_color_3"> Get started with Animation.css and learn by exploring interactive examples. <br/>Animations can greatly improve an interface's UX, but it's important to follow some guidelines to not overdo it and deteriorate the user experience on your web-things. Following the following rules should provide a good start.</h2>
-                     <h2 class="pt-1 pb-2 __font-weight-bold __text-White text-4xl strong-custom " >Installation and Usage</h2>
-                     <h2 class="pt-1 pb-2 __font-weight-bold __text-White text-xl text_color_3" >Install with npm:</h2>
+                     <h2 class="text-xxl text_color_3" style="font-weight: 300;
+                     color: #333333; font-size: 18px;"> Get started with Animation.css and learn by exploring interactive examples. <br/>Animations can greatly improve an interface's UX, but it's important to follow some guidelines to not overdo it and deteriorate the user experience on your web-things. Following the following rules should provide a good start.</h2>
+                     <h2 class="pt-10 pb-2 __font-weight-bold __text-White text-4xl strong-custom " >Installation and Usage</h2>
+                     <h2 class="pt-1 pb-2  __text-White text-xl __font-weight400" >Install with npm:</h2>
                      <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4">
-                        <h2 class="__text-White  px-16 pt-10 pb-10 _lineHeight_3">
+                        <h2 class="__text-White  px-16 pt-10 pb-10 _lineHeight_3 ">
                            $ npm install VTanimate.css --save
                         </h2>
                      </div>
-                     <h2 class="pt-1 pb-2 __font-weight-bold __text-White text-xl text_color_3 mt-5" >Import it into your file:
+                     <h2 class="pt-1 pb-2  __font-weight400 __text-White text-xl  mt-10" >Import it into your file:
                      </h2>
                      <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4">
                         <h2 class="__text-White  px-16 pt-10 pb-10 _lineHeight_3">
                            import 'VTanimate.css';
                         </h2>
                      </div>
-                     <h2 class="text-2xl text_color_3" >  You can added it directly to your webpage using a CDN:</h2>
-                     <div>
+                     <h2 class="text-xl __font-weight400 __text-White pt-1 mt-10" >  You can added it directly to your webpage using a CDN:</h2>
+                    
                         <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4">
                            <h2 class="__text-White  px-16 pt-10 pb-10 _lineHeight_3">
                               < head > 
@@ -51,24 +59,24 @@
                            </h2>
                         </div>
                         <div class="Usage-content pt-4">
-                           <h2 class="text-2xl text_color_3">After installing Animate.css, add the any class of the animation names.</h2>
+                           <h2 class="text-xl __font-weight400 __text-White pt-1 mt-10">After installing Animate.css, add the any class of the animation names.</h2>
                            <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4">
                               <div  class="__text-White  px-16 pt-10 pb-10 _lineHeight_3">
                                  < h1 class="bounce">An animated element< / h1>
                               </div >
                            </div>
-                           <h2 class="pt-1 pb-2 __font-weight-bold __text-White text-4xl strong-custom  mt-4"  >Animation</h2>
-                           <h2 class="text-2xl text_color_3">Utilities for animating elements with CSS animations.</h2>
-                           <div class="inline-flex __font-weight-bold max-w-full pt-2">
-                              <div class="__text-White flex-width">
+                           <h2 class="pt-1 pb-2 __font-weight-bold __text-White text-4xl strong-custom  mt-10"  >Animation</h2>
+                           <h2 class="text-xl __font-weight400 __text-White ">Utilities for animating elements with CSS animations.</h2>
+                           <div class="inline-flex  max-w-full pt-5">
+                              <div class="__text-White flex-width" >
                                  <p>Class</p>
                               </div>
                               <div class="__text-White ">
                                  <p>Properties</p>
                               </div>
                            </div>
-                           <div class="max-w-full  __overflow-y __vertical_height mt-3 _scrollBar __Shadow-inset __border-radius-10 pl-4 pr-4">
-                              <div class="flex max-w-full text-color-2 ">
+                           <div class="max-w-full  __overflow-y __vertical_height mt-3 _scrollBar __Shadow-inset __border-radius-10 pl-4 pr-4 mb-5">
+                              <div class="flex max-w-full __text-White ">
                                  <div class="flex-width pt-5 __font-weight-bold">
                                     flash
                                  </div>
@@ -89,7 +97,7 @@
                                  </div>
                               </div>
                               <div class="_hr"></div>
-                              <div class="flex max-w-full text-color-2 ">
+                              <div class="flex max-w-full  __text-White  ">
                                  <div class="flex-width pt-5 __font-weight-bold">
                                     bounceIn
                                  </div>
@@ -125,120 +133,117 @@
                                  </div>
                               </div>
                            </div>
+                        </div>
+                     </div>
+
                            <!--bounce content bounce-->
-                           <section id="bounce">
-                              <h2 class="pt-10 text-2xl text_color_3 ">bounce</h2>
-                              <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
-                                 gap: 10px;
-                                 display: grid;">
-                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                           <section id="div1" class="targetDiv">
+                             
+                              <h2 class=" text-2xl heading_color __font-weight-bold" >Bounce</h2>
+                              <div class="animation_content pt-2 dislay-flex-common" >
+                                 <div class="max-w-full  mt-3   __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                     <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"  id="parent">
                                        <h4 class=" text-x " id="hover-me">bounce</h4>
                                        <h4 class=" text-x bounce" id="hover-content" >bounce</h4>
                                     </div >
                                  </div>
-                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                 <div class="max-w-full  mt-3   __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                     <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
                                        <h4 class=" text-x " id="hover-me">bounceInUp</h4>
                                        <h4 class=" text-x bounceInUp" id="hover-content" >bounceInUp</h4>
                                     </div >
                                  </div>
-                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                 <div class="max-w-full  mt-3  __Shadow-inset-bg  __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                     <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                        <h4 class=" text-x " id="hover-me">bounceOut</h4>
                                        <h4 class=" text-x bounceOut" id="hover-content" >bounceOut</h4>
                                     </div >
                                  </div>
-                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                 <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                     <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                        <h4 class=" text-x " id="hover-me">bounceIn</h4>
                                        <h4 class=" text-x bounceIn" id="hover-content"  >bounceIn</h4>
                                     </div >
                                  </div>
                               </div>
-                              <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
-                                 gap: 10px;
-                                 display: grid;">
-                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                              <div class="animation_content pt-2 dislay-flex-common">
+                                 <div class="max-w-full  mt-3   __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                     <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                        <h4 class=" text-x " id="hover-me">bounceInRight</h4>
                                        <h4 class=" text-x bounceInRight" id="hover-content" >bounceInRight</h4>
                                     </div >
                                  </div>
-                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                 <div class="max-w-full  mt-3   __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                     <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                        <h4 class=" text-x " id="hover-me">bounceInDown</h4>
                                        <h4 class=" text-x bounceInDown"  id="hover-content">bounceInDown</h4>
                                     </div >
                                  </div>
-                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                 <div class="max-w-full  mt-3   __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                     <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                        <h4 class=" text-x " id="hover-me">bounceInLeft</h4>
                                        <h4 class=" text-x bounceInLeft" id="hover-content" >bounceInLeft</h4>
                                     </div >
                                  </div>
-                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                 <div class="max-w-full  mt-3   __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                     <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                        <h4 class=" text-x " id="hover-me">bounceOutDown</h4>
                                        <h4 class=" text-x bounceOutDown" id="hover-content" >bounceOutDown</h4>
                                     </div >
                                  </div>
                               </div>
+                          
                            </section>
                            <!--Close-->
                            <!--BackInDown content backInDown-->
-                           <section id="backInDown">
-                              <h2 class="pt-10 text-2xl text_color_3 ">BackInDown</h2>
-                              <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
-                                 gap: 10px;
-                                 display: grid;">
-                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                           <section id="div2" class="targetDiv">
+                              <h2 class="pt-3 text-2xl heading_color __font-weight-bold">BackInDown</h2>
+                              <div class="animation_content pt-2 dislay-flex-common">
+                                 <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                     <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"  id="parent">
                                        <h4 class=" text-x " id="hover-me">backInDown</h4>
                                        <h4 class=" text-x backInDown" id="hover-content" >backInDown</h4>
                                     </div >
                                  </div>
-                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                 <div class="max-w-full  mt-3 __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                     <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                        <h4 class=" text-x " id="hover-me">backInLeft</h4>
                                        <h4 class=" text-x backInLeft" id="hover-content"  >backInLeft</h4>
                                     </div >
                                  </div>
-                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                 <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                     <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                        <h4 class=" text-x " id="hover-me">backInRight</h4>
                                        <h4 class=" text-x backInRight"  id="hover-content">backInRight</h4>
                                     </div >
                                  </div>
-                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                 <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                     <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                        <h4 class=" text-x " id="hover-me">backInUp</h4>
                                        <h4 class=" text-x backInUp" id="hover-content" >backInUp</h4>
                                     </div >
                                  </div>
                               </div>
-                              <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
-                                 gap: 10px;
-                                 display: grid;">
-                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                              <div class="animation_content pt-10 dislay-flex-common">
+                                 <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                     <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                        <h4 class=" text-x " id="hover-me">backOutDown</h4>
                                        <h4 class=" text-x backOutDown" id="hover-content" >backOutDown</h4>
                                     </div >
                                  </div>
-                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                 <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                     <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
                                        <h4 class=" text-x " id="hover-me">backOutLeft</h4>
                                        <h4 class=" text-x backOutLeft" id="hover-content" >backOutLeft</h4>
                                     </div >
                                  </div>
-                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                 <div class="max-w-full  mt-3 __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                     <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                        <h4 class=" text-x " id="hover-me">backOutRight</h4>
                                        <h4 class=" text-x backOutRight" id="hover-content" >backOutRight</h4>
                                     </div >
                                  </div>
-                                 <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                                 <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                     <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                        <h4 class=" text-x " id="hover-me">backOutUp</h4>
                                        <h4 class=" text-x backOutUp" id="hover-content">backOutUp</h4>
@@ -248,58 +253,54 @@
                               <!--Close-->
                            </section>
 
-                           <section id="flash">
-                            <h2 class="pt-10 text-2xl text_color_3 ">Flash</h2>
-                            <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
-                               gap: 10px;
-                               display: grid;">
-                               <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                           <section id="div3" class="targetDiv">
+                            <h2 class="pt-3 text-2xl heading_color __font-weight-bold">Flash</h2>
+                            <div class="animation_content pt-2 dislay-flex-common">
+                               <div class="max-w-full  mt-3 __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                   <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"  id="parent">
                                      <h4 class=" text-x " id="hover-me">flash</h4>
                                      <h4 class=" text-x flash" id="hover-content" >flash</h4>
                                   </div >
                                </div>
-                               <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                               <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                   <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                      <h4 class=" text-x " id="hover-me">fadeIn</h4>
                                      <h4 class=" text-x fadeIn" id="hover-content"  >fadeIn</h4>
                                   </div >
                                </div>
-                               <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                               <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                   <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                      <h4 class=" text-x " id="hover-me">fadeInDown</h4>
                                      <h4 class=" text-x fadeInDown"  id="hover-content">fadeInDown</h4>
                                   </div >
                                </div>
-                               <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                               <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                   <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                      <h4 class=" text-x " id="hover-me">fadeInDownBig</h4>
                                      <h4 class=" text-x fadeInDownBig" id="hover-content" >fadeInDownBig</h4>
                                   </div >
                                </div>
                             </div>
-                            <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
-                               gap: 10px;
-                               display: grid;">
-                               <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                            <div class="animation_content pt-10 dislay-flex-common">
+                               <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                   <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                      <h4 class=" text-x " id="hover-me">fadeInLeft</h4>
                                      <h4 class=" text-x fadeInLeft" id="hover-content" >fadeInLeft</h4>
                                   </div >
                                </div>
-                               <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                               <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                   <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
                                      <h4 class=" text-x " id="hover-me">fadeInLeftBig</h4>
                                      <h4 class=" text-x fadeInLeftBig" id="hover-content" >fadeInLeftBig</h4>
                                   </div >
                                </div>
-                               <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                               <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                   <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                      <h4 class=" text-x " id="hover-me">fadeInRight</h4>
                                      <h4 class=" text-x fadeInRight" id="hover-content" >fadeInRight</h4>
                                   </div >
                                </div>
-                               <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                               <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                   <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                      <h4 class=" text-x " id="hover-me">fadeInRightBig</h4>
                                      <h4 class=" text-x fadeInRightBig" id="hover-content">fadeInRightBig</h4>
@@ -308,28 +309,26 @@
                             </div>
 
 
-                            <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
-                            gap: 10px;
-                            display: grid;">
-                            <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                            <div class="animation_content pt-10 dislay-flex-common">
+                            <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                   <h4 class=" text-x " id="hover-me">fadeInUp</h4>
                                   <h4 class=" text-x fadeInUp" id="hover-content" >fadeInUp</h4>
                                </div >
                             </div>
-                            <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                            <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
                                   <h4 class=" text-x " id="hover-me">fadeInUpBig</h4>
                                   <h4 class=" text-x fadeInUpBig" id="hover-content" >fadeInUpBig</h4>
                                </div >
                             </div>
-                            <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                            <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                   <h4 class=" text-x " id="hover-me">fadeInTopLeft</h4>
                                   <h4 class=" text-x fadeInTopLeft" id="hover-content" >fadeInTopLeft</h4>
                                </div >
                             </div>
-                            <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                            <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                                <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                   <h4 class=" text-x " id="hover-me">fadeInTopRight</h4>
                                   <h4 class=" text-x fadeInTopRight" id="hover-content">fadeInTopRight</h4>
@@ -338,28 +337,26 @@
                          </div>
 
 
-                         <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
-                         gap: 10px;
-                         display: grid;">
-                         <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                         <div class="animation_content pt-10 dislay-flex-common">
+                         <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                             <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                <h4 class=" text-x " id="hover-me">fadeInBottomLeft</h4>
                                <h4 class=" text-x fadeInBottomLeft" id="hover-content" >fadeInBottomLeft</h4>
                             </div >
                          </div>
-                         <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                         <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                             <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
                                <h4 class=" text-x " id="hover-me">fadeInBottomRight</h4>
                                <h4 class=" text-x fadeInBottomRight" id="hover-content" >fadeInBottomRight</h4>
                             </div >
                          </div>
-                         <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                         <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                             <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                <h4 class=" text-x " id="hover-me">fadeOut</h4>
                                <h4 class=" text-x fadeOut" id="hover-content" >fadeOut</h4>
                             </div >
                          </div>
-                         <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                         <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                             <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                                <h4 class=" text-x " id="hover-me">fadeOutDown</h4>
                                <h4 class=" text-x fadeOutDown" id="hover-content">fadeOutDown</h4>
@@ -368,28 +365,26 @@
                       </div>
 
 
-                      <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
-                      gap: 10px;
-                      display: grid;">
-                      <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                      <div class="animation_content pt-10 dislay-flex-common">
+                      <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                          <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                             <h4 class=" text-x " id="hover-me">fadeOutDownBig</h4>
                             <h4 class=" text-x fadeOutDownBig" id="hover-content" >fadeOutDownBig</h4>
                          </div >
                       </div>
-                      <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                      <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                          <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
                             <h4 class=" text-x " id="hover-me">fadeOutLeft</h4>
                             <h4 class=" text-x fadeOutLeft" id="hover-content" >fadeOutLeft</h4>
                          </div >
                       </div>
-                      <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                      <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                          <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                             <h4 class=" text-x " id="hover-me">fadeOutLeftBig</h4>
                             <h4 class=" text-x fadeOutLeftBig" id="hover-content" >fadeOutLeftBig</h4>
                          </div >
                       </div>
-                      <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                      <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                          <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                             <h4 class=" text-x " id="hover-me">fadeOutRight</h4>
                             <h4 class=" text-x fadeOutRight" id="hover-content">fadeOutRight</h4>
@@ -397,28 +392,26 @@
                       </div>
                    </div>
 
-                   <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
-                   gap: 10px;
-                   display: grid;">
-                   <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                   <div class="animation_content pt-10 dislay-flex-common">
+                   <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                       <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                          <h4 class=" text-x " id="hover-me">fadeOutRightBig</h4>
                          <h4 class=" text-x fadeOutRightBig" id="hover-content" >fadeOutRightBig</h4>
                       </div >
                    </div>
-                   <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                   <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                       <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
                          <h4 class=" text-x " id="hover-me">fadeOutUp</h4>
                          <h4 class=" text-x fadeOutUp" id="hover-content" >fadeOutUp</h4>
                       </div >
                    </div>
-                   <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                   <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                       <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                          <h4 class=" text-x " id="hover-me">fadeOutUpBig</h4>
                          <h4 class=" text-x fadeOutUpBig" id="hover-content" >fadeOutUpBig</h4>
                       </div >
                    </div>
-                   <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                   <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                       <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                          <h4 class=" text-x " id="hover-me">fadeOutTopLeft</h4>
                          <h4 class=" text-x fadeOutTopLeft" id="hover-content">fadeOutTopLeft</h4>
@@ -426,28 +419,26 @@
                    </div>
                 </div>
 
-                <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
-                gap: 10px;
-                display: grid;">
-                <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                <div class="animation_content pt-10 dislay-flex-common">
+                <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                       <h4 class=" text-x " id="hover-me">fadeOutTopRight</h4>
                       <h4 class=" text-x fadeOutTopRight" id="hover-content" >fadeOutTopRight</h4>
                    </div >
                 </div>
-                <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
                       <h4 class=" text-x " id="hover-me">fadeOutUp</h4>
                       <h4 class=" text-x fadeOutUp" id="hover-content" >fadeOutUp</h4>
                    </div >
                 </div>
-                <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                       <h4 class=" text-x " id="hover-me">fadeOutUpBig</h4>
                       <h4 class=" text-x fadeOutUpBig" id="hover-content" >fadeOutUpBig</h4>
                    </div >
                 </div>
-                <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+                <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
                    <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                       <h4 class=" text-x " id="hover-me">fadeOutTopLeft</h4>
                       <h4 class=" text-x fadeOutTopLeft" id="hover-content">fadeOutTopLeft</h4>
@@ -456,72 +447,45 @@
              </div>
 
              
-             <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto auto ;
-             gap: 10px;
-             display: grid;">
-             <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
-                <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
-                   <h4 class=" text-x " id="hover-me">fadeOutBottomRight</h4>
-                   <h4 class=" text-x fadeOutBottomRight" id="hover-content" >fadeOutBottomRight</h4>
-                </div >
-             </div>
-             <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
-                <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
-                   <h4 class=" text-x " id="hover-me">fadeOutBottomLeft</h4>
-                   <h4 class=" text-x fadeOutBottomLeft" id="hover-content" >fadeOutBottomLeft</h4>
-                </div >
-             </div>
-            
-          </div>
-          <h2 class="pt-10 text-2xl text_color_3 ">Flip</h2>
+          
+          <h2 class="pt-10 text-2xl heading_color __font-weight-bold">Flip</h2>
 
-          <div class="animation_content pt-10 " style="grid-template-columns: auto auto   ;
-          gap: 10px;
-          display: grid;">
-          <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+          <div class="animation_content pt-2 dislay-flex-common">
+          <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
             <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                <h4 class=" text-x " id="hover-me">flip</h4>
                <h4 class=" text-x flip" id="hover-content" >flip</h4>
             </div >
          </div>
-         <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+         <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
             <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
                <h4 class=" text-x " id="hover-me">flipInX</h4>
                <h4 class=" text-x flipInX" id="hover-content">flipInX</h4>
             </div >
          </div>
+         <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+            <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
+               <h4 class=" text-x " id="hover-me">flipInY</h4>
+               <h4 class=" text-x flipInY" id="hover-content" >flipInY</h4>
+            </div >
+         </div>
+         <div class="max-w-full  mt-3  __Shadow-inset-bg __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
+            <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
+               <h4 class=" text-x " id="hover-me">flipOutX</h4>
+               <h4 class=" text-x flipOutX" id="hover-content" >flipOutX</h4>
+            </div >
+         </div>
          </div>
 
-          <div class="animation_content pt-10 " style="grid-template-columns: auto auto auto  ;
-          gap: 10px;
-          display: grid;">
-          <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
-             <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
-                <h4 class=" text-x " id="hover-me">flipInY</h4>
-                <h4 class=" text-x flipInY" id="hover-content" >flipInY</h4>
-             </div >
-          </div>
-          <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
-             <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center"id="parent">
-                <h4 class=" text-x " id="hover-me">flipOutX</h4>
-                <h4 class=" text-x flipOutX" id="hover-content" >flipOutX</h4>
-             </div >
-          </div>
-          <div class="max-w-full  mt-3  __Shadow-inset __border-radius-10 pl-4 pr-4 _OverFlow_hidden __cursor" >
-             <div  class="__text-White  px-0 pt-8 pb-5 _lineHeight_3 text-center" id="parent">
-                <h4 class=" text-x " id="hover-me">flipOutY</h4>
-                <h4 class=" text-x flipOutY" id="hover-content" >flipOutY</h4>
-             </div >
-          </div>
-       </div>
+        
                             <!--Close-->
                          </section>
 
 
 
 
-                        </div>
-                     </div>
+                        
+                    
                   </div>
                   <!--Close-->              
                </div>
@@ -530,456 +494,446 @@
             <div class="__text-White"  >
                <div class="pt-8 pb-8 pr-8  __overflow-y  max-h-screen">
                   <ul>
-                     <li> <a href="#bounce" title="Copy class name ">bounce </a></li>
-                     <li><a href="#bounce" title="Copy class name ">
+                     <h2 class="pt-5 pb-3 text-2xl heading_color ">Introduction</h2>
+                     <li> <button  href="#div0" title="Copy class name "  class="showSingle" target="0">Get started </button></li>
+                     <h2 class="pt-5 pb-3 text-2xl heading_color ">Bounce</h2>
+                     <li> <button  href="#div1" title="Copy class name "  class="showSingle" target="1">bounce </button></li>
+                     <li><button title="Copy class name " class="showSingle" target="1">
                         bounceIn
-                        </a>
+                        </button>
                      </li>
-                     <li ><a href="#bounce" title="Copy class name ">
+                     <li ><button title="Copy class name " class="showSingle" target="1">
                         bounceInDown
-                        </a>
+                        </button>
                      </li>
-                     <li><a href="#bounce" title="Copy class name ">
+                     <li><button title="Copy class name " class="showSingle" target="1">
                         bounceInLeft
-                        </a>
+                        </button>
                      </li>
-                     <li ><a href="#bounce" title="Copy class name ">
+                     <li ><button title="Copy class name " class="showSingle" target="1">
                         bounceInRight
-                        </a>
+                        </button>
                      </li>
-                     <a href="#bounce" title="Copy class name ">
+                     <button title="Copy class name " class="showSingle" target="1">
                      bounceInUp
-                     </a></li>
+                     </button></li>
                      <li
-                        > <a href="#bounce" title="Copy class name ">
+                        > <button title="Copy class name " class="showSingle" target="1">
                         bounceOut
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#bounce" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="1">
                         bounceOutDown
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#bounce" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="1">
                         bounceOutLeft
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#bounce" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="1">
                         bounceOutRight
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#bounce" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="1">
                         bounceOutUp
-                        </a>
+                        </button>
                      </li>
-                     <li ><a href="#backInDown" title="Copy class name ">
+                     <h2 class="pt-5 pb-3 text-2xl heading_color ">Back</h2>
+                     <li ><button class="showSingle" target="2" title="Copy class name ">
                         backInDown
-                        </a>
+                        </button>
                      </li>
-                     <li ><a href="#backInDown" title="Copy class name ">
+                     <li ><button title="Copy class name " class="showSingle" target="2">
                         backInLeft
-                        </a>
+                        </button>
                      </li>
-                     <li ><a href="#backInDown" title="Copy class name ">
+                     <li ><button title="Copy class name " class="showSingle" target="2">
                         backInRight
-                        </a>
+                        </button>
                      </li>
-                     <li ><a href="#backInDown" title="Copy class name ">
+                     <li ><button title="Copy class name " class="showSingle" target="2">
                         backInUp
-                        </a>
+                        </button>
                      </li>
-                     <li ><a href="#backInDown" title="Copy class name ">
+                     <li ><button title="Copy class name " class="showSingle" target="2">
                         backOutDown
-                        </a>
+                        </button>
                      </li>
-                     <li ><a href="#backInDown" title="Copy class name ">
+                     <li ><button title="Copy class name " class="showSingle" target="2">
                         backOutLeft
-                        </a>
+                        </button>
                      </li>
-                     <li><a href="#backInDown" title="Copy class name ">
+                     <li><button title="Copy class name " class="showSingle" target="2">
                         backOutRight
-                        </a>
+                        </button>
                      </li>
-                     <li ><a href="#backInDown" title="Copy class name ">
+                     <li ><button title="Copy class name " class="showSingle" target="2">
                         backOutUp
-                        </a>
+                        </button>
                      </li>
-                     <li><a href="#" title="Copy class name ">flash</a></li>
-                     <li> <a href="#" title="Copy class name "> pulse</a></li>
-                     <li><a href="#" title="Copy class name ">
-                        rubberBand
-                        </a>
-                     </li>
-                     <li ><a href="#" title="Copy class name ">
+                    
+                     <h2 class="pt-5 pb-3 text-2xl heading_color ">Shake</h2>
+                     <li ><button title="Copy class name ">
                         shakeX
-                        </a>
+                        </button>
                      </li>
-                     <li ><a href="#" title="Copy class name ">
+                     <li ><button title="Copy class name ">
                         shakeY
-                        </a>
+                        </button>
                      </li>
-                     <li ><a href="#" title="Copy class name ">
+                     <li ><button title="Copy class name ">
                         headShake
-                        </a>
+                        </button>
                      </li>
-                     <li ><a href="#" title="Copy class name ">
+                     <li ><button title="Copy class name ">
                         swing
-                        </a>
+                        </button>
                      </li>
-                     <li ><a href="#" title="Copy class name ">
+                     <li ><button title="Copy class name ">
                         tada
-                        </a>
+                        </button>
                      </li>
-                     <li ><a href="#" title="Copy class name ">
+                     <li ><button title="Copy class name ">
                         wobble
-                        </a>
+                        </button>
                      </li>
-                     <li ><a href="#" title="Copy class name ">
-                        jello
-                        </a>
-                     </li>
-                     <li ><a href="#" title="Copy class name ">
-                        heartBeat
-                        </a>
-                     </li>
+                     <h2 class="pt-5 pb-3 text-2xl heading_color ">Fade</h2>
+                     <li><button title="Copy class name " class="showSingle" target="3">flash</button></li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeIn
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeInDown
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeInDownBig
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeInLeft
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeInLeftBig
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeInRight
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeInRightBig
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeInUp
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeInUpBig
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeInTopLeft
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeInTopRight
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeInBottomLeft
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeInBottomRight
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeOut
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeOutDown
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeOutDownBig
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeOutLeft
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeOutLeftBig
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeOutRight
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeOutRightBig
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeOutUp
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeOutUpBig
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeOutTopLeft
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeOutTopRight
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeOutBottomRight
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         fadeOutBottomLeft
-                        </a>
+                        </button>
                      </li>
+                     <h2 class="pt-5 pb-3 text-2xl heading_color ">Flip</h2>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         flip
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         flipInX
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         flipInY
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         flipOutX
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name " class="showSingle" target="3">
                         flipOutY
-                        </a>
+                        </button>
                      </li>
+                     <h2 class="pt-5 pb-3 text-2xl heading_color ">LightSpeed</h2>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         lightSpeedInRight
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         lightSpeedInLeft
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         lightSpeedOutRight
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         lightSpeedOutLeft
-                        </a>
+                        </button>
                      </li>
+                     <h2 class="pt-5 pb-3 text-2xl heading_color ">Rotate</h2>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         rotateIn
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         rotateInDownLeft
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         rotateInDownRight
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         rotateInUpLeft
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         rotateInUpRight
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         rotateOut
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         rotateOutDownLeft
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         rotateOutDownRight
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         rotateOutUpLeft
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         rotateOutUpRight
-                        </a>
+                        </button>
                      </li>
+                     <h2 class="pt-5 pb-3 text-2xl heading_color ">Roll</h2>
                      <li 
-                        >  <a href="#" title="Copy class name ">
-                        hinge
-                        </a>
-                     </li>
-                     <li 
-                        >  <a href="#" title="Copy class name ">
-                        jackInTheBox
-                        </a>
-                     </li>
-                     <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         rollIn
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         rollOut
-                        </a>
+                        </button>
                      </li>
+                     <h2 class="pt-5 pb-3 text-2xl heading_color ">Zoom</h2>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         zoomIn
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        > <a href="#" title="Copy class name ">
+                        > <button title="Copy class name ">
                         zoomInDown
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         zoomInLeft
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         zoomInRight
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         zoomInUp
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         zoomOut
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         zoomOutDown
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         zoomOutLeft
-                        </a>
+                        </button>
                      </li>
                      <li 
                         >  
-                        <a href="#" title="Copy class name ">
+                        <button title="Copy class name ">
                         zoomOutRight
-                        </a>
+                        </button>
                      </li>
                      <li
                         >
-                        <a href="#" title="Copy class name "> zoomOutUp
-                        </a>
+                        <button title="Copy class name "> zoomOutUp
+                        </button>
                      </li>
+                     <h2 class="pt-5 pb-3 text-2xl heading_color ">Slide</h2>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         slideInDown
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         slideInLeft
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         slideInRight
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         slideInUp
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         slideOutDown
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         slideOutLeft
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         slideOutRight
-                        </a>
+                        </button>
                      </li>
                      <li 
-                        >  <a href="#" title="Copy class name ">
+                        >  <button title="Copy class name ">
                         slideOutUp
-                        </a>
+                        </button>
                      </li>
                   </ul>
                </div>
@@ -987,5 +941,7 @@
             <!--close-->
          </div>
       </section>
+
+      <script src="./js/main.js"></script>
    </body>
 </html>

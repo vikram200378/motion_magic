@@ -19,10 +19,7 @@
 .__cursor{
   cursor: pointer
 }
-.max-w-full.mt-3.__Shadow-inset.__border-radius-10.pl-4.pr-4._OverFlow_hidden {
-  width:auto;
-  height: 100%;
-}
+
 
  html {
     line-height: 1.15; /* 1 */
@@ -41,7 +38,7 @@
   }
   /*colors*/
 .__text-White{
-    color: #fff;
+    color: #333333;
 
 }
     .__overflow-x{
@@ -49,6 +46,7 @@
   }
   .__overflow-y{
     overflow-y: scroll;
+    height: 600px;
   }
   /**
    * Render the `main` element consistently in IE.
