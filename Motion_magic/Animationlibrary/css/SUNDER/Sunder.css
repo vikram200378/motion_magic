@@ -45,8 +45,8 @@
     overflow-x: scroll;
   }
   .__overflow-y{
-    overflow-y: scroll;
-    height: 600px;
+    overflow-y: auto;
+    height: 100vh;
   }
   /**
    * Render the `main` element consistently in IE.
